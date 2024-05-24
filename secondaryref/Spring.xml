@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" 
+	"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<bean id="s" class="secondaryref.info">
+		<property name="mylist">
+			<list>
+				<value>java</value>
+				<value>python</value>
+			</list>
+		</property>
+
+		<property name="myset">
+			<list>
+				<value>Cricket</value>
+				<value>Handball</value>
+			</list>
+		</property>
+
+
+		<property name="mymap">
+			<map>
+				<entry key="1" value="redmi"></entry>
+				<entry key="2" value="iphone"></entry>
+			</map>
+		</property>
+	</bean>
+</beans>
